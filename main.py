@@ -1,13 +1,13 @@
 '''import numpy as np
 
 def Cal_IoU(GT_bbox, Pred_bbox):
-    '''
+    """
     Args:
         GT_bbox:  the bounding box of the ground truth
         Pred_bbox: the bounding box of the predicted
     Returns:
         IoU: Intersection over Union
-    '''
+    """
     #1. Calculate the area of the intersecting area
     ixmin = max(GT_bbox[0], Pred_bbox[0])
     iymin = max(GT_bbox[1], Pred_bbox[1])
