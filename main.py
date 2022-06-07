@@ -1,4 +1,4 @@
-import numpy as np
+'''import numpy as np
 
 def Cal_IoU(GT_bbox, Pred_bbox):
     '''
@@ -30,4 +30,5 @@ def Cal_IoU(GT_bbox, Pred_bbox):
 if __name__ == "__main__":
     pred_bbox = np.array([40, 40, 100, 100])
     gt_bbox = np.array([70, 80, 110, 130])
-    print(Cal_IoU(pred_bbox, gt_bbox))
+    print(Cal_IoU(pred_bbox, gt_bbox))'''
+    print("test)
