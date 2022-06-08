@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'python3 --version'
                 sh 'python3 main.py'
-                echo 'webhook test'
+                echo 'webhook test - 2nd try'
             }
         }
     }
